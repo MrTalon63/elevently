@@ -2,7 +2,11 @@
 module.exports = {
 	content: ["./src/**/*.{html,md,njk}", "./node_modules/flowbite/**/*.js"],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {
+				top: "url('https://placehold.co/1920x400')",
+			},
+		},
 	},
 	daisyui: {
 		themes: ["light"],
